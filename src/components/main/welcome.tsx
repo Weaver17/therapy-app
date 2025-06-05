@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 function Welcome() {
     return (
         <div className="client-container  ">
-            <div className="flex flex-col justify-center items-center gap-4 border-b pt-20 pb-4 px-4 border-secondary">
+            <div className="flex flex-col justify-center items-center gap-4 border-b pt-32 pb-4 px-4 border-secondary">
                 <h2 className="text-center font-serif text-5xl text-primary-foreground">
                     Therapy for <strong className="italic">Everyone</strong>
                 </h2>

@@ -1,3 +1,4 @@
+import Footer from "@/components/footer/footer";
 import Header from "@/components/header/header";
 import React from "react";
 
@@ -10,6 +11,7 @@ function ClientLayout({
         <main className="client-main">
             <Header />
             {children}
+            <Footer />
         </main>
     );
 }

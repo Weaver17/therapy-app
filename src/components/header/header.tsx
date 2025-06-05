@@ -12,13 +12,13 @@ import Link from "next/link";
 
 function Header() {
     return (
-        <header className="flex flex-col px-4 w-full shadow-lg h-24">
+        <header className="fixed z-50 flex flex-col px-4 w-full shadow-lg h-24">
             <div className="w-full bg-secondary">
                 <div className="mx-auto flex items-center justify-end px-12 py-2 w-full max-w-[1380px]">
                     <Link href="/">Patient Log In</Link>
                 </div>
             </div>
-            <div className=" w-fullbg-background">
+            <div className="w-full h-full bg-background">
                 <div className="mx-auto flex items-center justify-between px-12 py-2 w-full max-w-[1380px]">
                     <h1 className="font-bold text-2xl text-primary-foreground">
                         <Link href="/">Therapy-4-All</Link>
